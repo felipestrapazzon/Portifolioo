@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>felipe.strapazzon</title>
+
+  <style>
+    @font-face {
+      font-family: elite;
+      src: url(css/SpecialElite-Regular.ttf);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: rgb(25, 25, 25);
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .line {
+      border-right: 2px solid white;
+      color: rgba(255, 255, 255, 0.75);
+      font-family: elite;
+      font-size: 34px;
+      margin: 0 auto;
+      white-space: nowrap;
+      overflow: hidden;
+      text-align: center;
+      animation: typing 4s steps(40) 1s both;
+    }
+
+    @keyframes typing {
+      0% {
+        width: 0;
+      }
+
+      100% {
+        width: 100%;
+      }
+    }
+
+    .new-line {
+      margin-top: 20px;
+      animation: scale-in 2s 5s forwards;
+      border-right: 2px solid white;
+      color: rgba(255, 255, 255, 0.75);
+      font-family: elite;
+      font-size: 34px;
+      margin: 0 auto;
+      white-space: nowrap;
+      overflow: hidden;
+      text-align: center;
+      animation: typing 4s steps(40) 1s both;
+    }
+
+    @keyframes scale-in {
+      0% {
+        transform: scale(0.8);
+        letter-spacing: 10px;
+      }
+
+      50% {
+        transform: scale(1.05);
+        letter-spacing: 20px;
+      }
+
+      100% {
+        transform: scale(1);
+        letter-spacing: 0;
+        opacity: 1;
+      }
+    }
+
+    .new-line:last-child {
+      animation-delay: 6s;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <p class="line">
+      Olá, eu sou o Felipe! =)
+    </p>
+    <p class="new-line">
+      Mais conhecido como Felps!
+    </p>
+  </div>
+
+  <script>
+    setTimeout(function() {
+      window.location.href = "error1.html";
+    }, 12000); // Redireciona após 12 segundos (12000 milissegundos)
+  </script>
+</body>
+</html>

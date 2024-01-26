@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+
+            background: #371d50;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .spinner {
+
+            border: 8px solid #CAA8F5;
+            height: 45px;
+            width: 45px;
+            border-left-color: #7b2e87;
+            border-radius: 50%;
+            animation: rotation 2s linear infinite;
+        }
+
+        @keyframes rotation {
+        
+            from {
+
+                transform: rotate(0deg);
+            }
+            to {
+
+                transform: rotate(360deg);
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="spinner"></div>
+
+    <script>
+        setTimeout(function() {
+      window.location.href = "home.html";
+    }, 5000);
+    </script>
+</body>
+</html>
