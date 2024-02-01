@@ -688,3 +688,36 @@ a {
     float: right;
 
   }
+
+  .button-34 {
+    background: black;
+    border-radius: 999px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    text-decoration: none;
+    width: 80%;
+    animation: rgbbox 6s infinite;
+}
+
+
+.centrin {
+
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+}
