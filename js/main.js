@@ -23,8 +23,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 //CODIGO TROCAR IMAGEM E MUTAR MUSICA
 
-let imgAtual = "img/SOUND/ONSOUND.jpg"
-let imgDps = "img/SOUND/MUTED.jpg"
+let imgAtual = "img/SOUND/MUTED.jpg"
+let imgDps = "img/SOUND/ONSOUND.jpg"
 let musicaMuda = true;
 
 function trocarImagem() {
